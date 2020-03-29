@@ -24,7 +24,7 @@ li  {
 
 a.item {
 	background-color: pink;
-	border-radius: 10px;
+	border-radius: 20px;
 	color: black;
 	padding: 7px;
 	text-align: center;
@@ -37,23 +37,19 @@ a.item {
 
   }
 
-li a {
-
-display: block;
-color: black;
-text-align: center;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-padding: 14px 16px;
-text-decoration: none;
-}
-
-li a:hover {
-
-	background-color: rgb(247, 246, 252);
-	}
-
-
-
+a.item:hover {
+	background-color: lightblue;
+	border-radius: 10px;
+	color: white;
+	padding: 7px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 0px 2px;
+	cursor: pointer;
+	vertical-align: middle;
+  }
 
 .section {
 	text-align: center;
@@ -100,7 +96,8 @@ body{
 }
 
 .img:hover{
-	transform: scale(1.2);
+	transform: scale(1.5);
+	
 }
 	
 #title{
